@@ -1,0 +1,38 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 23309335104
+  starting_time:
+    nanoseconds_since_epoch: 1699657684666216128
+  message_count: 702
+  topics_with_message_count:
+    - topic_metadata:
+        name: /tractor/radar/dynamic/obstacle_detection/clustering/bb_2d_dummy/center
+        type: geometry_msgs/msg/PointStamped
+        serialization_format: cdr
+        offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 2\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
+      message_count: 234
+    - topic_metadata:
+        name: /tractor/radar/dynamic/obstacle_detection/clustering/bb_2d_dummy_gt/center
+        type: geometry_msgs/msg/PointStamped
+        serialization_format: cdr
+        offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 2\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
+      message_count: 234
+    - topic_metadata:
+        name: /tractor/radar/dynamic/obstacle_detection/tracking/bb_2d_dummy/center
+        type: geometry_msgs/msg/PointStamped
+        serialization_format: cdr
+        offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 2\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
+      message_count: 234
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - rosbag2_2023_11_10-23_08_04_0.db3
+  files:
+    - path: rosbag2_2023_11_10-23_08_04_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1699657684666216128
+      duration:
+        nanoseconds: 23309335104
+      message_count: 702
