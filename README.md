@@ -14,13 +14,13 @@ The SORT tracker initialises with the following parameters:
 - `iou_threshold`: 0.01
 - `dt`: Equals to `1/freq`. It is used in the state model of the Kalman filter
 
-<!-- ![Tracker workflow](media/tracker_workflow.png) -->
+![Tracker workflow](media/tracker_workflow.png)
 
 Valid trackers satisfy the following conditions:
 
-$hit\_ streak > min \_ hits$ <br>
-$time\_ since\_ update  < max\_ age$ <br>
-$|\dot{x}|,|\dot{y}| < max\_ speed$
+$hit \ streak > min \ hits$ <br>
+$time \ since \ update  < max \ age$ <br>
+$|\dot{x}|,|\dot{y}| < max \ speed$
 
 New trackers are given an ID incremented from the last created tracker. When there are no trackers in memory, the count resets to 0, and the next tracker is assigned ID 0. This is necessary for the marker_pub node to work and produce markers on RViz. 
 
